@@ -11,14 +11,14 @@ android 기반 어플로 openAPI를 통해 거래내역 데이터를 받아와 �
              할 수 있도록 하는 라이브러리
 
 # 전체적인 흐름
-    Remix에서 solidity 언어로 smart contract 작성
--> MetaMask와 Remix, Web3j를 통해 사용할 블록체인 네트워크를 연동
--> Remix로 작성한 contract를 TestNet에 배포
--> 배포한 .sol 파일을 solc(=solidity compiler)로 abi, bin 파일로 분리
--> web3j로 분리된 abi, bin 파일을 Android Studio에서 사용할 수 있는 Java 파일로 변환
--> 변환한 Java 파일을 Android Studio 프로젝트 내에 포함
--> Android Studio에서 포함시킨 Java파일을 이용해서 배포된 contract 내의 함수 사용
--> 함수 사용 : 1. 토큰 전송(Admin->User & User->Admin)
+- Remix에서 solidity 언어로 smart contract 작성
+- MetaMask와 Remix, Web3j를 통해 사용할 블록체인 네트워크를 연동
+- Remix로 작성한 contract를 TestNet에 배포
+- 배포한 .sol 파일을 solc(=solidity compiler)로 abi, bin 파일로 분리
+- web3j로 분리된 abi, bin 파일을 Android Studio에서 사용할 수 있는 Java 파일로 변환
+- 변환한 Java 파일을 Android Studio 프로젝트 내에 포함
+- Android Studio에서 포함시킨 Java파일을 이용해서 배포된 contract 내의 함수 사용
+- 함수 사용 : 1. 토큰 전송(Admin->User & User->Admin)
 	       2. 거래내역 BlockChain Network에 올리기
--> 함수 사용하면 해당 내용을 담고 있는 Transaction이 발생되고 TestNet에선 mining 중이기 때문에
+- 함수 사용하면 해당 내용을 담고 있는 Transaction이 발생되고 TestNet에선 mining 중이기 때문에
      Transaction이 Block에 포함 되어 Block이 BCNetwork에 올라감
