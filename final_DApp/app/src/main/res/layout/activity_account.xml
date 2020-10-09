@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/account">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#a8e4ff"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_account_back"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="#a8e4ff"
+                    android:drawableTop="@drawable/back" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="   Koreatech 스마트 학생회 활동 기록부"
+                    android:textColor="#ffffff"
+                    android:textSize="19dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:orientation="vertical"
+                android:background="#03A9F4">
+
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="30dp"
+                    android:src="@drawable/koreatech_logo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="학생회 장부"
+                    android:textColor="#ffffff"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+            </LinearLayout>
+
+
+
+
+            <ListView
+                android:id="@+id/accountListView"
+                android:layout_width="match_parent"
+                android:layout_height="233dp"
+                android:layout_margin="10dp"
+                android:divider="#ffffff"
+                android:dividerHeight="10dp"></ListView>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/fragment"
+            android:layout_width="match_parent"
+            android:layout_height="667dp"></RelativeLayout>
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

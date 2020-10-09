@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:scrollbarSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"
+        android:hint="날짜"
+        android:gravity="center"
+        android:layout_weight="1"/>
+    <TextView
+        android:scrollbarSize="20sp"
+        android:hint="비용"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/cost"
+        android:layout_weight="1"/>
+    <TextView
+        android:hint="장소"
+        android:scrollbarSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/place"
+        android:layout_weight="1"/>
+    <TextView
+        android:scrollbarSize="20sp"
+        android:hint="종류"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/type"
+        android:layout_weight="1"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "717766993595",
+    "firebase_url": "https://dappdb-bc4e1.firebaseio.com",
+    "project_id": "dappdb-bc4e1",
+    "storage_bucket": "dappdb-bc4e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717766993595:android:caf9fcfdddf516c8c46b9e",
+        "android_client_info": {
+          "package_name": "com.example.final_dapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717766993595-qi5digktnk7cnhhbl2h2bvmpe5qqhdro.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.final_dapp",
+            "certificate_hash": "3c1ad49de9ce64b5ba106d6bf1ccfe09393a1575"
+          }
+        },
+        {
+          "client_id": "717766993595-oi89d1i19v9h09q2fq1vkao9uii5lstv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_GoOLwgItskRsgA0II3ZmqF1Wi9xWVTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717766993595-oi89d1i19v9h09q2fq1vkao9uii5lstv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

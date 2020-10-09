@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignupActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#03A9F4"
+            >
+
+            <Button
+                android:id="@+id/button_writenotice_back"
+                android:layout_width="43dp"
+                android:layout_height="44dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="8dp"
+                android:background="#03A9F4"
+                android:drawableTop="@drawable/previous_button_image" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="게시물 쓰기"
+                android:textColor="#ffffff"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="제목 : "
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/edit_title_writenotice"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="-180dp"
+                android:text="내용"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/edit_content_writenotice"
+                android:inputType="textMultiLine"
+                android:scrollbars="vertical"
+                android:layout_width="400dp"
+                android:layout_height="500dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:background="@drawable/edittext_rectangle"
+                />
+
+            <Button
+                android:id="@+id/button_writenotice_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="165dp"
+                android:layout_marginTop="10dp"
+                android:background="#03A9F4"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:text="등록" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
