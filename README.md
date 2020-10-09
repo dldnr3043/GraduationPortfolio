@@ -2,7 +2,7 @@
 android 기반 어플로 openAPI를 통해 거래내역 데이터를 받아와 자동으로 디비, 블록체인에 등록해 사용자에게 보여주고
 토큰을 사용해 학생회 활동에 참여하면 토큰을 지급 받을 수 있으며 지급 받은 토큰으로 등록한 물품을 구매할 수 있음
 
-#사용 프로그램
+# 사용 프로그램
 - Android Studio : 프론트 엔드 전반적인 앱 부분 제작
 - Remix IDE : solidity 언어로 smart contract를 만들고 MetaMask으로 블록체인 TestNet과 연동하여 TestNet에 contract 배포
 - MetaMask : 사용자의 지갑을 관리, Remix와의 연동, 배포한 contract 주소 & 지갑 주소를 통해 Transaction 정보를 볼 수 있음
